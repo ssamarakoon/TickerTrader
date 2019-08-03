@@ -17,9 +17,11 @@ Historical data will be aggregated in daily format, using close prices of each d
 ## MSFT Example
 Inputing 'MSFT', which is the ticker for Microsoft, shows that using the MACD trading strategy gives higher returns compared to the RSI trading strategy.
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure.PNG)
+
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure1.PNG)
 
 Using a custom print output to find the end values. We see that trading with MACD brings an end value of $580.08 and RSI respectively of $334.85
+
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure2.PNG)
 
 ## Future Implementations
