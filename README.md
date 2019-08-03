@@ -13,9 +13,9 @@ The application will first prompt the user to specify a company's historical dat
 
 ## MSFT Example
 The MSFT ticker shows that using the MACD default parameters performa
-![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/figure.PNG)
-![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/figure.PNG)
-
+![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure.PNG)
+![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure1.PNG)
+![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure2.PNG)
 
 
 
