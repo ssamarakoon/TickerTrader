@@ -1,10 +1,10 @@
 # TickerTrader
 >Find annual returns of a stock ticker using techinical indicators
 
-This application is designed to give the user the ability to backtest any publicly listed company on the NYSE or NASDAQ based on two technical indicators, MACD and RSI.
+This application is designed to give the user the ability to backtest any publicly listed company in US financial markets based on two technical indicators, MACD and RSI.
 
 ## Using The Program
-Once the application is executed, it will prompt the user to specify a company's historical data to backtest. The user will input the company's ticker symbol (should be on NYSE or NASDAQ) and in case the ticker symbol doesn't exist, the program will notify the user to re-input a different ticker. 
+Once the application is executed, it will prompt the user to specify a company's historical data to backtest. The user will input the company's ticker symbol (should be on NYSE or NASDAQ) and in case the ticker symbol doesn't exist, the program will notify the user to re-input a different ticker. The program will output an line graph that shows the performance of using MACD vs. RSI. The graph starts at $100 initially and decreases/increases over time based off the trades. 
 
 ## The Technical Indicators
 [MACD](https://www.investopedia.com/terms/m/macd.asp), Moving Average Convergence Divergence, is a trend indicator. It will be using the past 12 periods to build the fast EMA, the past 26 periods to build the slow EMA, and the past 9 periods to build the signal line. A buy execution will occur when the signal line is above the MACD for at least 6 periods, which indicates a bullish trend. A sell execution will ovver when the signal line is below the MACD for at least 6 periods, which indicates a bearish trend.
