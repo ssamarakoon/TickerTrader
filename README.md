@@ -26,5 +26,6 @@ Using a custom print output to find the end values. We see that trading with MAC
 
 ## Future Implementations
 Using only a single technical indicator to determine when to buy/sell can be unreliable with the potential for false signals. For example a trend indicator like MACD might not address other technical aspects of market data such as volume, volatility, or momentum. These false signals can be reduced by using a combination of technical indicators such as MACD and RSI together to better determine buying/selling signals. 
-Another problem that this application doesn't address is the risk-exposure. MACD may have had the highest returns in the above example, but having open positions in the market exposes the portfolio to systematic (market specific) and unsystematic (company/industry specific) risk. 
+
+Another problem that this application doesn't address is the risk-exposure of each strategy. MACD may have had the highest returns in the above example, but if it had open positions in the market longer than that for RSI, it exposes the portfolio to systematic (market specific) and unsystematic (company/industry specific) risk. One way to 
 
