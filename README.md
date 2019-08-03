@@ -12,7 +12,8 @@ The application will first prompt the user to specify a company's historical dat
 [RSI](https://www.investopedia.com/terms/r/rsi.asp), Relative Strength Indicator, is a momentum indicator. It will be using the past 14 periods of histocial data to generate an index value. A buy execution will occur when the RSI shows a consistent oversold signal with a reading of 30 or below for at least 6 periods. A sell execution will occur when the RSI shows a consistent overvalued signal, with a reading of 70 or above for at least 6 periods
 
 ## MSFT Example
-
+The MSFT ticker shows that using the MACD default parameters performa
+![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/figure.PNG)
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/figure.PNG)
 
 
