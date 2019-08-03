@@ -16,6 +16,7 @@ Historical data will be aggregated in daily format, using close prices of each d
 
 ## MSFT Example
 Inputing 'MSFT', the ticker for Microsoft, shows that using MACD trading strategy gives higher returns versus RSI trading strategy.
+
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure1.PNG)
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure.PNG)
 
