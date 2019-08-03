@@ -25,6 +25,6 @@ Using a custom print output to find the end values. We see that trading with MAC
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure2.PNG)
 
 ## Future Implementations
-Using only a single technical indicator to determine when to buy/sell can be unreliable with the potential for false signals. This can b
+Using only a single technical indicator to determine when to buy/sell can be unreliable with the potential for false signals. For example a trend indicator like MACD might not address the signals that might arise from changes in volume/volatility/momentum. These false signals can be reduced by using a combination of technical indicators
 Another problem that this application doesn't address is the risk-exposure. MACD 
 
