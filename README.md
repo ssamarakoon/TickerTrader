@@ -13,6 +13,7 @@ The application will first prompt the user to specify a company's historical dat
 
 ## MSFT Example
 
-![alt text](https://github.com/ssamarakoon/TickerTrader/tree/master/doc)
+![alt text](https://github.com/ssamarakoon/TickerTrader/tree/master/doc/figure.png)
+https://raw.githubusercontent.com/
 
 
