@@ -12,13 +12,12 @@ The program will first prompt the user to specify a company's historical data to
 [RSI](https://www.investopedia.com/terms/r/rsi.asp), Relative Strength Indicator, is a momentum indicator. It will be using the past 14 periods of histocial data to generate an index value.
 
 ## The Trading Strategy
-Historical data will be aggregated in daily format, using close prices of each day to calculate MACD and RSI. For the specified ticker, historical data will range from the earliest date that the AlphaVantage (market data provider) API can provide up to yesterday's date. The trading strategy for MACD is as follows: a buy is executed when the signal line is above the MACD for at least 6 periods, which indicates a bullish trend; a sell is executed when the signal line is below the MACD for at least 6 periods, which indicates a bearish trend. The trading strategy for RSI is as follows: A buy is executed occur when the RSI shows a consistent oversold signal with a reading of 30 or below for at least 6 periods. A sell is executed when the RSI shows a consistent overvalued signal, with a reading of 70 or above for at least 6 periods
+Historical data will be aggregated in daily format, using close prices of each day to calculate MACD and RSI. For the specified ticker, historical data will range from the earliest date that the AlphaVantage (market data provider) API can provide up to yesterday's date. The trading strategy for MACD is as follows: a buy is executed when the signal line is above the MACD for at least 6 periods, which indicates a bullish trend; a sell is executed when the signal line is below the MACD for at least 6 periods, which indicates a bearish trend. The trading strategy for RSI is as follows: a buy is executed occur when the RSI shows a consistent oversold signal with a reading of 30 or below for at least 6 periods; a sell is executed when the RSI shows a consistent overvalued signal, with a reading of 70 or above for at least 6 periods
 
 ## MSFT Example
-Inputing 'MSFT', which is the ticker for Microsoft, shows that using the MACD trading strategy gives higher returns compared to the RSI trading strategy.
-![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure.PNG)
-
+Inputing 'MSFT', the ticker for Microsoft, shows that using MACD trading strategy gives higher returns versus RSI trading strategy.
 ![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure1.PNG)
+![alt text](https://github.com/ssamarakoon/TickerTrader/blob/master/doc/figure.PNG)
 
 Using a custom print output to find the end values. We see that trading with MACD brings an end value of $580.08 and RSI respectively of $334.85
 
