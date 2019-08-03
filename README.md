@@ -15,5 +15,7 @@ The application will first prompt the user to specify a company's historical dat
 
 ![alt text](https://raw.githubusercontent.com/ssamarakoon/TickerTrader/master/figure.png)
 
+[[https://github.com/ssamarakoon/TickerTrader/master/figure.png]]
+
 
 
