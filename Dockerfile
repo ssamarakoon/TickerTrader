@@ -1,3 +1,4 @@
 FROM python:3.7
+COPY . /app
 RUN pip install -r requirements.txt
-RUN TickerTrader.py
+CMD ["python", "TickerTrader.py"]
